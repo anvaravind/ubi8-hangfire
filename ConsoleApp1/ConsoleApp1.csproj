@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<NoWarn>NU1701;NU1702</NoWarn>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	</PropertyGroup>
+
+
+
+	<ItemGroup>
+		<PackageReference Include="Hangfire" Version="1.8.11" />
+		<PackageReference Include="Hangfire.InMemory" Version="0.8.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.5" />
+	</ItemGroup>
+
+</Project>
